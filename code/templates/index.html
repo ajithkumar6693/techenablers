@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Question Form</title>
+</head>
+<body>
+    <form method="post">
+        <label for="question">Enter your question:</label>
+        <input type="text" id="question" name="question" style="width: 700px;">
+        <button type="submit">Submit</button>
+    </form>
+    <h1>Upload Document</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="document">
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>
